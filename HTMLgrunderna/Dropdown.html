@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formshow.systementor.se" method="post">
+
+        <h2 style="color: sandybrown;">NEW USER REGISTER HERE</h2>
+        <caption>Please fill in the following information</caption>
+        <div>    
+            <label for="email"></label><br>        
+            <input type="email" name="email" id="email" placeholder="name@mail.something" required>
+        </div>
+        <div>
+        <span>
+            <label for="firstname"></label>
+            <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+            <label for="lastname"></label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+        </span>
+        <div>
+            <label for="password"></label>
+            <input type="password" name="password" id="password" placeholder="Enter password" required>
+        </div>
+        <div>
+            <label for="confirmpassword"></label>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm password" required>
+        </div>
+        <div>
+            <select name="country" id="country">
+                <option value="">Please Choose Country</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Norway">Norway</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Finland">Finland</option>
+                <option value="Germany">Germany</option>
+            </select>
+        </div>
+        <div>
+            <select name="type" id="type">
+                <option value="">Please Select Type</option>
+                <option value="normal">Normal</option>
+                <option value="premium">Premium</option>
+                <option value="bip">BIP</option>
+            </select>
+        </div>
+        <label for="checkbox">Send me important uppdates!</label>
+        <input type="checkbox" name="checkbox">
+        <br>
+        <input type="submit" value="Register Me">
+    </form>
+</body>
+</html>
