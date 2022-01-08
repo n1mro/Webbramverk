@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV uppgift</title>
+</head>
+<body>
+    <form action="https://formshow.systementor.se" method="post">
+        <caption>CV Uppgifter</caption>
+        <div>
+            <span>
+                <label for="namn">Namn</label><br>
+                <input type="text" name="namn">
+            </span>
+            <span>
+                <label for="mobilnummer">Mobilnummer</label>
+                <input type="tel" min="8" max="12" name="mobilnummer">
+            </span>
+        </div>
+        <div>
+          
+            <label for="address">Adress</label>
+            <input type="text" name="address">
+        
+            <label for="postnummer">Postnummer</label>
+            <input type="text" name="postnummer">
+          
+        </div>
+        <div>
+            <label for="postort">Postort</label>
+            <input type="text" name="postort">
+        
+            <label for="email">Email</label>
+            <input type="email" name="postnummer">
+          
+        </div>
+        <div>
+            <span>
+                <label for="utbildning">Beskrivning av utbildning</label>
+                <textarea name="beskrivning" id="utbildning" cols="50" rows="10"></textarea>
+            </span>
+            <span>
+                <label for="radiobuttons"></label>
+                <input type="radio" name="radiobuttons" id="kanSverige" value="Sverige" />
+                    <label for="kanSverige">Kan arbeta inom Sverige</label>
+                <input type="radio" name="radiobuttons" id="kanEu" value="EU" />
+                    <label for="kanEu">Kan jobba inom EU</label>
+                <input type="radio" name="radiobuttons" id="endastRegionalt" value="Regionalt" />
+                    <label for="endastRegionalt">Endast arbete regionalt</label>
+            </span>
+        </div>
+        <div>
+            <label for="korkort">Jag har körkort</label>
+            <input type="checkbox" name="checkbox" id="korkort" value="korkort"/>
+        
+    
+            <label for="bil">Jag har tillgång till bil</label>
+            <input type="checkbox" name="checkbox" id="bil" value="bil"/>
+        </div>
+        <div>
+            <input type="submit" value="Spara">
+            <input type="submit" value="Avbryt">
+        </div>
+    </form>
+</body>
+</html>
