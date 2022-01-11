@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 5px;
+    padding: 5px;
+}
+
+.logostyle {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}  
+
+.profileimage{
+    border-radius: 50%;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 1);
+}
+
+.footerstyle{
+    background-color: bisque;
+    color: red;
+    border: 2px solid blue;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu__link:hover{
+    background: blue;
+    color: white;
+}
+
+.menu__link{
+    text-decoration:none;
+    background: white;
+    color: blue;
+}
